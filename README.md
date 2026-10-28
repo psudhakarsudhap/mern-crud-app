@@ -49,6 +49,14 @@ npm run dev
 
 Open the local URL printed by Vite in your browser. The frontend currently sends API requests to `http://localhost:3000`.
 
+## Frontend routes
+
+| Route | Description |
+| --- | --- |
+| `/` | View the list of posts |
+| `/create-post` | Open the form to create a post |
+| `/update-post/:id` | Open the form to edit the post with the specified ID |
+
 ## API endpoints
 
 All post endpoints use the `/api/v1/posts` path.
